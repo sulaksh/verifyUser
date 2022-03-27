@@ -1,0 +1,21 @@
+.box {
+  margin: 20px 10px;
+}
+
+.field {
+  margin-top: 10px;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.full {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.gst-form {
+  margin-bottom: 10px;
+}
