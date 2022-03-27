@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { addDoc } from "firebase/firestore";
 import { colRef } from "../firebaseConfig";
 function Registration() {
@@ -64,7 +64,7 @@ function Registration() {
             Submit
           </button>
           <p>
-            Already a user? <a href="/login">signin</a>
+            Already a user? <Link to="/login">signin</Link>
           </p>
         </form>
       </div>
